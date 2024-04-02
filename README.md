@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" tittle="Ir para a seção de esportes"> Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" tittle="Ir para a seção de economia"> Economia</a>
+                    </li>
+                    <li>
+                        <a href="#tecnology" tittle="Ir para a seção de tecnologia"> Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#entertainment" tittle="Ir para a seção de entretenimento"> Entretenimento</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>   
+                    <img src="./media/futebol.jpg" />
+                    <header>
+                        <time class="creation-date">28/03/2024 às 07:45</time>
+                    </header>
+                <h3>Grande classico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus odit, eius veniam assumenda voluptatum nostrum blanditiis labore nam, possimus officiis ducimus doloremque in voluptate ex sit. Consequuntur dolorum optio repudiandae!
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/futebol-americano.jpg" />
+                    <header>
+                        <time>28/03/2024 às 07:45</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/basquete.jpg" />
+                    <header>
+                        <time>28/03/2024 às 07:45</time>
+                    </header>
+                    <h3>Noticia sobre NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./media/dolares.jpg" />
+                    <header>
+                        <time>28/03/2024 às 07:45</time>
+                    </header>
+                    <h3>Dolar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam accusantium, autem ducimus inventore quaerat suscipit voluptas aliquid voluptatibus ipsam culpa exercitationem molestias sapiente eveniet rerum quisquam itaque maiores, accusamus saepe.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/euro.jpg" />
+                    <header>
+                        <time>28/03/2024 às 07:45</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam accusantium, autem ducimus inventore quaerat suscipit voluptas aliquid voluptatibus ipsam culpa exercitationem molestias sapiente eveniet rerum quisquam itaque maiores, accusamus saepe.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/petroleo.jpg" />
+                    <header>
+                        <time>28/03/2024 às 07:45</time>
+                    </header>
+                    <h3>O barril do petróleo sobe 6%</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam accusantium, autem ducimus inventore quaerat suscipit voluptas aliquid voluptatibus ipsam culpa exercitationem molestias sapiente eveniet rerum quisquam itaque maiores, accusamus saepe.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>           
+        </div>        
+    </section>
+    <section id="tecnology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src= "./media/celular_dobravel.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Samsung lança celular dobrável</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus odit, eius veniam assumenda voluptatum nostrum blanditiis labore nam, possimus officiis ducimus doloremque in voluptate ex sit. Consequuntur dolorum optio repudiandae!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/satelite.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Starlink põe em orbita mais de 100 satelites</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/nanotec.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Nanotecnologia é a medicina do futuro?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>            
+        </div>        
+    </section>
+    <section id="entertainment">
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src= "./media/luisa.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Luísa Sonsa dá alfinetada em ex ao vivo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus odit, eius veniam assumenda voluptatum nostrum blanditiis labore nam, possimus officiis ducimus doloremque in voluptate ex sit. Consequuntur dolorum optio repudiandae!
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/BBB24.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Entenda a última briga do BBB24</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./media/dieta.jpg" />
+                    <header>
+                        <time>29/03/2024 às 08:45</time>
+                    </header>
+                    <h3>Como perder peso em 90 dias</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima sapiente deleniti hic dicta delectus quis, vero recusandae voluptatum! Consequuntur, magni officia repudiandae in explicabo quia eaque harum recusandae atque.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>        
+    </section>
+</body>
+</html>
