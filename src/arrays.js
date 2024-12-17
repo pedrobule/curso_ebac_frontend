@@ -6,12 +6,10 @@ const alunos = [
     { nome: "Lucas", nota: 6.0 }
 ];
 
-  // Função para retornar alunos com nota >= 6
 function alunosAprovados(alunos) {
     return alunos.filter(aluno => aluno.nota >= 6);
 }
 
-  // Exemplo de uso da função
 const aprovados = alunosAprovados(alunos);
 
 console.log(aprovados);
